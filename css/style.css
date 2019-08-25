@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+/* Icons */
+
+i {
+    font-size: 8rem;
+    color: #78ABCA;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    color: #fff;
+}
+
+.social {
+    color: #fff;
+    float: right;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.top {
+    color: #333333;
+}
+
+.top:hover {
+    color: #d5d6aa;
+    transform: scale(1.2);
+}
+
+hr {
+    border-top: 2px solid #119da4;
+    width: 150px;
+}
+
+a {
+    color: #2978a0;
+}
+
+a:hover {
+    color: #d5d6aa;
+    text-decoration: none;
+}
+
+.team i {
+    font-size: 40px;
+    margin: 5px;
+
+}
+
+.twitter,
+.facebook,
+.instagram,
+.linkedin {
+    color: #d5d6aa;
+    font-size: 45px;
+    margin-right: 35px;
+}
+
+.twitter:hover {
+    color: #55acee;
+}
+
+.facebook:hover {
+    color: #3b5998;
+}
+
+.instagram:hover {
+    color: #517fa4;
+}
+
+.linkedin:hover {
+    color: #0077b5;
+}
+
+.info-icon {
+    font-size: 2.5rem;
+    color: #d5d6aa;
+    position: relative;
+    top: 4px;
+    margin-left: 10px;
+}
+
+.icon--news {
+    color: #d5d6aa;
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 5px;
+}
+
+button {
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+}
+
+/* Images */
+
+.hero {
+    background-image: url(../img/hero-test.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 60vh;
+    width: 90vw;
+    margin-top: 90px;
+}
+
+.sponsors-img {
+    margin: 100px 0;
+    border-left: 1px solid #d5d6aa;
+    border-right: 1px solid #d5d6aa;
+}
+
+.poster-img {
+    padding: 11px;
+    transform: scale(1.08);
+    transition: 1s;
+}
+
+.poster-img:hover {
+    transform: scale(1);
+    transition: 0.6s;
+}
+
+.img-circle {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 0;
+}
+
+.team-img {
+    margin-right: 15px;
+}
+
+/* Text */
+
+h1 {
+    font-size: 5rem;
+    font-family: 'montserrat';
+    text-transform: uppercase;
+    color: #d5d6aa;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 4.5rem;
+    font-family: 'Source Serif Pro', serif;
+}
+
+h4 {
+    font-size: 2.5rem;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.team h2 {
+    margin: 100px 0 50px 0;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+}
+
+.team h4 {
+    margin-bottom: 20px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.team p {
+    font-family: 'Cairo', sans-serif;
+    font-size: 2.5rem;
+}
+
+span {
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.follow {
+    text-transform: uppercase;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 15px;
+}
+
+.info-text {
+    display: inline;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.news-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.hero-text {
+    padding-top: 55px;
+
+}
+
+.main-text {
+    color: #119da4;
+    font-family: 'Cairo', sans-serif;
+    font-size: 6rem;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.sub-text {
+    font-family: 'Cairo', sans-serif;
+    font-size: 5rem;
+    color: #119da4;
+}
+
+.table-text {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.copyright-text {
+    color: #fff;
+}
+
+.register h5 {
+    margin: 30px 0;
+    font-size: 2rem;
+}
+
+/* Sections */
+
+.features {
+    padding: 100px 0 100px 0;
+}
+
+.movies {
+    background-image: url(../img/brick_background.jpg);
+    background-size: cover;
+    padding: 20px 0;
+    margin: 100px 0;
+}
+
+.footer {
+    background-color: #253031;
+    padding-top: 50px
+}
+
+.line-up {
+    margin: 100px 0;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.table {
+    height: 250px;
+}
+
+form {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.about {
+    margin-top: 100px;
+}
+
+.about-us {
+    color: #253031;
+    font-size: 3rem;
+    font-family: 'Cairo', sans-serif;
+}
+
+.about-festival {
+    margin: 100px 0;
+    background-color: #f4f4f4;
+    padding: 50px 0;
+
+
+}
+
+.news-block {
+    margin-top: 20px;
+}
+
+.register {
+    background-color: #eee;
+    padding-top: 60px;
+    margin-top: 100px;
+}
+
+.news {
+    padding-bottom: 20px;
+    margin-bottom: 150px;
+    background-color: #f4f4f4;
+}
+
+
+/* Navigation */
+
+.nav-styles {
+    background-color: rgb(41 120 160);
+    width: 90vw;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin: 15px;
+}
+
+.navbar-brand:hover {
+    color: #d5d6aa;
+    transform: scale(1.1);
+}
+
+#films {
+    padding-top: 100px;
+}
+
+#about {
+    padding-top: 100px;
+}
+
+#register {
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
