@@ -23,3 +23,5 @@ _Goals_
 _Budget_
 _Timeline_
 _Technical_ _specifications_ (explanation of design and technical choices that were made, even if they're basic)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d229dad0-2bb1-49c4-ba7b-405bef42df83/deploy-status)](https://app.netlify.com/sites/brooklyn-ff/deploys)
